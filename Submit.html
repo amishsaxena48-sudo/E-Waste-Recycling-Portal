@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard - E-Waste Portal</title>
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font-family:Arial; 
+    background-color: #ffe4b5;
+    color: #2c3e50; 
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container { 
+    width: 100%;
+    max-width: 100%; 
+    background: #ffffff; 
+    padding: 30px 50px; 
+    border-radius: 0; 
+    box-shadow: none; 
+}
+
+.header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-bottom: 2px solid #edf2f7; 
+    padding-bottom: 15px; 
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a202c;
+}
+
+.logout-btn { 
+    background:#c0392b; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 8px; 
+    font-weight: 600; 
+    font-size: 14px;
+    button-align: right;
+    transition: all 0.3s ease;
+}
+
+.logout-btn:hover { 
+    background: red; 
+}
+
+.sub-text {
+    color: #718096;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+h3 { 
+    color: #2d3748; 
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label { 
+    font-weight: 600; 
+    display: block; 
+    margin-bottom: 8px; 
+    color: #4a5568;
+}
+
+input, select { 
+    width: 100%; 
+    padding: 12px 15px; 
+    border-radius: 8px; 
+    border: 1px solid #cbd5e0; 
+    font-size: 15px;
+    background-color: #f8fafc;
+}
+
+input:focus, select:focus {
+    border-color: #27ae60;
+    outline: none;
+    background-color: #fff;
+}
+
+button { 
+    width: 100%;
+    background: orange; 
+    color: white; 
+    border: none; 
+    padding: 14px;
+    font-size: 16px; 
+    font-weight: 600;
+    border-radius: 8px; 
+    cursor: pointer; 
+    margin-top: 10px;
+}
+
+button:hover {
+    background: green;
+}
+
+}    </style>
+</head>
+<body>
+<div class="header">
+<a href="index.html" class="logout-btn">Logout</a>
+        </div>
+
+<b><h1><font face="Arial" color="Green"><p align="center">🚮 E WASTE RECYCLING PORTAL 🗑️</p></b></h1>
+<b><h4><font face="Calibiri" color="Green"><p align="center"><i> 💻 A Step Towards Saving Earth 🌳 </i></p></b></h4><hr><br>
+<form action="Certficate.html" method="POST">       
+    <div class="form-group" style="background: #e6f4ea; padding: 15px; border-radius: 8px; border-left: 4px solid #27ae60;">
+        <label for="ewaste_photo"><font color="red"> Upload E-waste Item Photo (JPEG/PNG):</label>
+        <input type="file" id="ewaste_photo" name="ewaste_photo" accept="image/*" required>
+    </div>
+<div class="form-group" style="background: #e6f4ea; padding: 15px; border-radius: 8px; border-left: 4px solid #27ae60;"><label for="item"><font color="green"> Name of E-Waste Company/ Agency :</label>
+           <input type="text" name="product" placeholder="Name of Company/ Agency Where You Submitted E-Waste" required ></div>
+
+<div class="form-group" style="background: #e6f4ea; padding: 15px; border-radius: 8px; border-left: 4px solid #27ae60;">
+<label for="ewaste_photo"><font color="blue"> Upload Receipt/ Certificate Image For Giving E-Waste To E-Waste Management Center   (JPEG/PNG):</label>
+        <input type="file" id="reciept" name="reciept" accept="image/*" required>
+    </div>
+
+<div style="text-align: center; margin: 20px 0;">
+    <button type="submit" style="color: white;">Final Submission & Get E-Certificate</button>
+</div></form>
+<br>
+
+
+</body>
+</html>

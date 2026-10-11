@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Waste Recycling Portal</title>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font-family: 'Inter', Arial, sans-serif; 
+    background-color: #90ee90;
+    color: #2c3e50; 
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container { 
+    width: 100%;
+    max-width: 100%; 
+    background: #ffefd5; 
+    padding: 30px 50px; /* Left-Right me badhiya space ke liye */
+    border-radius: 0; 
+    box-shadow: none; 
+}
+
+.header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-bottom: 2px solid #edf2f7; 
+    padding-bottom: 15px; 
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a202c;
+}
+
+.logout-btn { 
+    background: #e74c3c; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: border; 
+    border-radius: 8px; 
+    font-weight: 600; 
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.logout-btn:hover { 
+    background: #c0392b; 
+}
+
+.sub-text {
+    color: #718096;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+h3 { 
+    color: #2d3748; 
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label { 
+    font-weight: 600; 
+    display: block; 
+    margin-bottom: 8px; 
+    color: #4a5568;
+}
+
+input, select { 
+    width: 100%; 
+    padding: 12px 15px; 
+    border-radius: 8px; 
+    border: 1px solid #cbd5e0; 
+    font-size: 15px;
+    background-color: #f8fafc;
+}
+
+input:focus, select:focus {
+    border-color: #27ae60;
+    outline: none;
+    background-color: #fff;
+}
+
+button { 
+    width: 100%;
+    background: #27ae60; 
+    color: white; 
+    border: none; 
+    padding: 14px;
+    font-size: 16px; 
+    font-weight: 600;
+    border-radius: 8px; 
+    cursor: pointer; 
+    margin-top: 10px;
+}
+
+button:hover {
+    background: blue;
+}
+
+
+</style>
+</head>
+<body>
+<b><h1><font face="Arial" color="Green"><p align="center">🚮 E WASTE RECYCLING PORTAL 🗑️</p></b></h1></font>
+<b><h4><font face="Calibiri" color="Green"><p align="center" ><i>💻 A Step Towards Saving Earth 🌳</i></p></b></h4></font><hr>
+<marquee behavior="scroll" direction="left" scrollamount="10" 
+                 style="background-color: #ffeb3b; color: #000000; padding: 10px; font-size: 18px; font-weight: bold; border-radius: 5px; margin: 15px 0;">
+    ♻️ Recycle your old electronics responsibly! Submit your E-Waste details below, get an official Appreciation Certificate, and earn your Recycler Badge today! Save Earth, Reduce E-Waste! 🌍
+</marquee>
+
+    <div class="container">
+        
+        
+        <div class="header">
+            <h1><font color="dark-green" face="Arial"><b>Welcome, User ! </b></h1></font>
+            <a href="index.html" class="logout-btn">Logout</a>
+        </div>
+
+        <h3><p class="sub-text" ><font color="red">Register Your E-Waste Below, Submit it to center and Earn Badge with E-Certificate !</p></h3></font>
+
+<div style="display: flex; justify-content: space-around; background: #ffd700; padding: 15px; margin: 20px 0; border-radius: 8px; text-align: center; font-family: arial; color: #228b22;">
+    <div>🌱 <b>100%</b><br><small>Eco Friendly</small></div>
+    <div>📦 <b>500+ kg</b><br><small>E-Waste Recycled</small></div>
+    <div>📜 <b>Instant</b><br><small>E-Certificate</small></div>
+</div>
+
+       
+    
+        
+        <h2><p align="center"><font color="Blue"><b><u>E-Waste Entry Form</h2></p></font></u></b>
+        <form action="Submit.html" method="POST">
+            <div class="form-group">
+                <label for="city"><font color="red">Your State/ City :</label>
+                <input type="text" id="city" name="city" placeholder="Enter City OR State Name" required> </div>
+<div class="form-group">
+                <label for="item"><font color="green"> E-Waste Product Name :</label>
+           <input type="text" name="product" placeholder="Enter E-waste Product Name with some identification detail" required ><br>
+
+<br><label for="category"><font color="purple">Select E-waste Category:</label>
+
+<select id="ewaste-item" name="item" required>
+    <option value="" disabled selected>Select Category For E-Waste</option>
+    
+  <optgroup label="Refrigerators / AC / Washing Machines">
+    <option value="Large Appliances">Large Appliances</option>
+</optgroup>
+
+<optgroup label="Microwaves / Radiators / Cookers">
+    <option value="Large Appliances">Large Appliances</option>
+</optgroup>
+
+<optgroup label="Vacuums / Irons / Toasters">
+    <option value="Small Appliances">Small Appliances</option>
+</optgroup>
+
+<optgroup label="Hair Dryers / Coffee Makers / Razors">
+    <option value="Small Appliances">Small Appliances</option>
+</optgroup>
+
+<optgroup label="Computers / Laptops / Screens">
+    <option value="Computer & Telecommunications">Computer & Telecommunications</option>
+</optgroup>
+
+<optgroup label="Mobile Phones / Calculators">
+    <option value="Computer & Telecommunications">Computer & Telecommunications</option>
+</optgroup>
+
+<optgroup label="Printers / Mice / Accessories">
+    <option value="Computer & Telecommunications">Computer & Telecommunications</option>
+</optgroup>
+
+<optgroup label="Televisions / Music Players / Radios">
+    <option value="Low Consumption Devices">Low Consumption Devices</option>
+</optgroup>
+
+<optgroup label="Speakers / Amplifiers / Camcorders">
+    <option value="Low Consumption Devices">Low Consumption Devices</option>
+</optgroup>
+
+<optgroup label="Fluorescent Tubes / LEDs / Lightbulbs">
+    <option value="Lighting Fixtures">Lighting Fixtures</option>
+</optgroup>
+
+<optgroup label="Drills / Screwdrivers / Electric Saws">
+    <option value="Electric Tools">Electric Tools</option>
+</optgroup>
+
+<optgroup label="Video Games / Consoles / Heart Rate Monitors">
+    <option value="Toys & Leisure">Toys & Leisure</option>
+</optgroup>
+
+<optgroup label="Medical Thermometers / Smoke Detectors">
+    <option value="Medical & Control Instruments">Medical & Control Instruments</option>
+</optgroup>
+
+<optgroup label="Others">
+    <option value="If No one is Matchig with your Product ">None of These</option>
+</optgroup>
+</select>                 
+               
+            </div>
+
+            <button type="submit">Submit Details</button>
+        </form>
+<br>
+<hr>
+
+</body>
+</html>
