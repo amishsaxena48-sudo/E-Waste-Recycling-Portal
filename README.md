@@ -6,7 +6,7 @@ An innovative full-stack web application designed to incentivize household elect
 - **Live Website:**(https://e-waste-recycling-portal.edgeone.dev/)
 
 ## 📌 Project Overview
-The E-Waste Recycling Portal addresses the growing concern of improper household e-waste disposal by bridging the gap between consumers and certified recycling agencies. It features user authentication, structured e-waste logging, asset proof uploading, and an instant E-Certificate generator complete with unique tracking IDs and QR code verification.
+The E-Waste Recycling Portal addresses the growing concern of improper household e-waste disposal by bridging the gap between consumers and certified recycling agencies. It features user authentication, structured e-waste logging, asset proof uploading, and an instant E-Certificate generator complete with unique tracking IDs and QR code verification. It is compatible to mobile and computers.
 
 ## 🛠️ Tech Stack & Architecture
 - **Frontend:** HTML5, CSS3, JavaScript (Fully responsive UI/UX)
