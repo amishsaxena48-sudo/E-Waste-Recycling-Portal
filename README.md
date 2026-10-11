@@ -10,8 +10,8 @@ The E-Waste Recycling Portal addresses the growing concern of improper household
 
 ## 🛠️ Tech Stack & Architecture
 - **Frontend:** HTML5, CSS3, JavaScript (Fully responsive UI/UX)
-- **Deployment & Hosting:** AWS Amplify (Global edge distribution & secure HTTPS)
-- **Storage:** AWS S3 (Secure object storage for user-uploaded recycling proofs and asset verifications)
+- **Deployment & Hosting:** EdgeOne (Global CDN distribution & secure HTTPS)
+- **AWS Integration Roadmap:** Designed for seamless cloud scaling with AWS Amplify, AWS S3, and AWS DynamoDB in the next production phase.
 
 ## ✨ Key Features
 - **User Authentication:** Secure sign-up and login workflow.
